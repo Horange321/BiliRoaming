@@ -129,6 +129,11 @@
             android:title="@string/comment_copy_enhance_title" />
 
         <SwitchPreference
+            android:key="copy_comment"
+            android:summary="@string/copy_comment_summary"
+            android:title="@string/copy_comment_title" />
+
+        <SwitchPreference
             android:key="mini_program"
             android:summary="@string/mini_program_summary"
             android:title="@string/mini_program_title" />
@@ -243,7 +248,7 @@
             android:entryValues="@array/live_quality_values"
             android:key="live_quality"
             android:summary="@string/live_quality_summary"
-            android:title="@string/live_quality_title"/>
+            android:title="@string/live_quality_title" />
 
         <SwitchPreference
             android:key="block_comment_guide"
@@ -283,8 +288,8 @@
         <SwitchPreference
             android:defaultValue="false"
             android:key="fake_non_multiwindow"
-            android:title="@string/fake_non_multiwindow_title"
-            android:summary="@string/fake_non_multiwindow_summary"/>
+            android:summary="@string/fake_non_multiwindow_summary"
+            android:title="@string/fake_non_multiwindow_title" />
 
         <Preference
             android:defaultValue="300"
@@ -541,8 +546,8 @@
 
         <Preference
             android:key="copy_access_key"
-            android:title="@string/copy_access_key_title"
-            android:summary="@string/copy_access_key_summary" />
+            android:summary="@string/copy_access_key_summary"
+            android:title="@string/copy_access_key_title" />
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/setting_category">
