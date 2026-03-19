@@ -16,9 +16,9 @@ class CopyCommentHook(classLoader: ClassLoader) : BaseHook(classLoader) {
     override fun startHook() {
         if (!sPrefs.getBoolean("copy_comment", false)) return
         XposedHelpers.findAndHookMethod(
-            "com.bilibili.app.comment3.ui.widget.menu.CommentMoreMenuItemHolder",
+            "m00.g",
             mClassLoader,
-            "y3",
+            "q0",
             "kotlin.jvm.functions.Function1",
             "com.bilibili.app.comment3.data.model.CommentItem\$MenuItem",
             "android.view.View",  // ConstraintLayout
